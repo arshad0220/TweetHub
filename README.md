@@ -1,6 +1,6 @@
-# Build and Deploy: TWITTER clone with React, Tailwind, Next, Prisma, Mongo, NextAuth & Vercel (2023)
+# Twitter Clone with React, Tailwind, Next, Prisma, MongoDB, NextAuth & Vercel (2023)
 
-We are going to learn funcionalities such as:
+Welcome to our Twitter clone project! In this project, we'll explore a variety of functionalities, including:
 
 - Authentication system
 - Notification system
@@ -14,41 +14,13 @@ We are going to learn funcionalities such as:
 - Likes functionality
 - Vercel Deployment
 
-### Prerequisites
+## Prerequisites
 
-**Node version 14.x**
+Make sure you have Node.js version 14.x installed.
 
-### Cloning the repository
+## Installation
 
-```shell
-git clone https://github.com/AntonioErdeljac/twitter-clone.git
-```
-
-### Install packages
+To get started, install the required packages by running the following command:
 
 ```shell
-npm i
-```
-
-### Setup .env file
-
-
-```js
-DATABASE_URL=
-NEXTAUTH_JWT_SECRET=
-NEXTAUTH_SECRET=
-```
-
-### Start the app
-
-```shell
-npm run dev
-```
-
-## Available commands
-
-Running commands with npm `npm run [command]`
-
-| command         | description                              |
-| :-------------- | :--------------------------------------- |
-| `dev`           | Starts a development instance of the app |
+npm install
