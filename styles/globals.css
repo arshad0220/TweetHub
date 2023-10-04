@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  @apply h-full bg-black;
+}
+
+body {
+  @apply h-full bg-black;
+}
+
+/* Best styles */
+
+/* Typography */
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+}
+
+/* Spacing */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Borders */
+
+body {
+  border-top: 1px solid #eee;
+}
+
+/* Links */
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+}
